@@ -1,0 +1,72 @@
+main {
+  padding: 3rem;
+}
+
+/* .form {
+  padding: 3rem;
+} */
+fieldset {
+  border: none;
+  display: flex;
+  gap: 2rem;
+  padding: 0;
+  margin: 0;
+}
+fieldset > div {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+  text-align: left;
+}
+
+label {
+  margin-bottom: 0.5rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+input {
+  height: 30px;
+  border: 2px solid #535bf2;
+  border-radius: 10px;
+}
+
+button {
+  margin-top: 1rem;
+  width: 50%;
+}
+
+.meme {
+  margin-top: 4rem;
+  position: relative;
+}
+.memeImg {
+  width: 60%;
+  border-radius: 10px;
+}
+
+.meme--text {
+  position: absolute;
+  width: 80%;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 15px 0;
+  padding: 0 5px;
+  font-family: impact, sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000,
+    -2px 2px 0 #000, 0 2px 0 #000, 2px 0 0 #000, 0 -2px 0 #000, -2px 0 0 #000,
+    2px 2px 5px #000;
+}
+
+.bottom {
+  bottom: 0;
+}
+
+.top {
+  top: 0;
+}
